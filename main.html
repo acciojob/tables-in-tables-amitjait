@@ -9,33 +9,45 @@
   <body>
     <table style="width: 100%; height: 100%">
       <tr class="grid-item">
-        <td class="flex-box">
-          <table style="width: 100%; height: 100%">
+        <td class="flex-box" >
+          <table style="width: 100%; padding-top: 100px;padding-bottom: 100px;" >
             <tr>
-              <th class = "grid-item" colspan="2">Nested table 2</th>
-            </tr>
-            <tr class="grid-item">
-              <td class = "grid-item">Column 1</td>
-              <td class = "grid-item">Column 2</td>
-            </tr>
-            <tr>
-              <td class = "grid-item">abc</td>
-              <td class = "grid-item">def</td>
+              <td>
+                <table style="width: 100%;">
+                  <tr>
+                    <th class = "grid-item" colspan="2">Nested table 2</th>
+                  </tr>
+                  <tr class="grid-item">
+                    <th class = "grid-item">Column 1</th>
+                    <th class = "grid-item">Column 2</th>
+                  </tr>
+                  <tr>
+                    <td class = "grid-item">abc</td>
+                    <td class = "grid-item">def</td>
+                  </tr>
+              </td>
+              </table>
             </tr>
           </table>
         </td>
-        <td>
-          <table style="width: 100%; height: 100%">
+        <td class="flex-item" id="tdwidth">
+          <table style="width: 100%" id = "pad">
             <tr>
-              <th class = "grid-item" colspan="2">Nested Table 1</th>
-            </tr>
-            <tr>
-              <td class = "grid-item">
-                <ul>
-                  <li>List item</li>
-                  <li>List item</li>
-                  <li>List item</li>
-                </ul>
+              <td>
+                <table style="width: 100%">
+                  <tr>
+                    <th class = "grid-item" colspan="2">Nested Table 1</th>
+                  </tr>
+                  <tr>
+                    <td class = "grid-item">
+                      <ul>
+                        <li>List item</li>
+                        <li>List item</li>
+                        <li>List item</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </table>
               </td>
             </tr>
           </table>
@@ -43,24 +55,36 @@
       </tr>
       <tr class="grid-item">
         <td class="flex-box">
-          <table style="width: 100%; height: 100%">
+          <table style="width: 100%" id="pad">
             <tr>
-              <th class = "grid-item" colspan="2" >Nested table 3</th>
-            </tr>
-            <tr class="grid-item">
-              <td class = "grid-item" style="color:blue ;"><u>Nested Table</u></td>
-              <td class = "grid-item">Demo Continued</td>
+              <td>
+                <table style="width: 100%; height: 100%">
+                  <tr>
+                    <th class = "grid-item" colspan="2" >Nested table 3</th>
+                  </tr>
+                  <tr class="grid-item">
+                    <td class = "grid-item" style="color:blue ;"><u>Nested Table</u></td>
+                    <td class = "grid-item">Demo Continued</td>
+                  </tr>
+                </table>
+              </td>
             </tr>
           </table>
         </td>
         <td>
-          <table style="width: 100%; height: 100%">
+          <table style="width: 100%" id="pad">
             <tr>
-              <th class = "grid-item" colspan="2">Nested Table 4</th>
-            </tr>
-            <tr>
-              <td class = "grid-item" style="background-color:black;color:white">
-                HTML
+              <td>
+                <table style="width: 100%; height: 100%">
+                  <tr>
+                    <th class = "grid-item" colspan="2">Nested Table 4</th>
+                  </tr>
+                  <tr>
+                    <td class = "grid-item" style="background-color:black;color:white">
+                      HTML
+                    </td>
+                  </tr>
+                </table>
               </td>
             </tr>
           </table>
